@@ -1,0 +1,31 @@
+{
+    "name": "gretaperlmutter.com",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint --fix && prettier --write 'pages/' 'components/' 'style/' > /dev/null"
+    },
+    "dependencies": {
+        "bootstrap": "5.2.3",
+        "next": "13.1.6",
+        "react": "18.2.0",
+        "react-bootstrap": "2.7.0",
+        "react-dom": "18.2.0",
+        "react-hook-form": "7.42.1",
+        "react-icons": "4.7.1",
+        "sass": "1.57.1"
+    },
+    "devDependencies": {
+        "@types/node": "18.11.18",
+        "@types/react": "18.0.27",
+        "eslint": "8.23.0",
+        "eslint-config-next": "13.1.6",
+        "eslint-plugin-prettier": "4.2.1",
+        "prettier": "2.8.3",
+        "prettier-plugin-organize-imports": "3.2.2",
+        "typescript": "4.9.4"
+    }
+}
