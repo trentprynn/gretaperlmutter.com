@@ -81,7 +81,7 @@ export default function Root() {
                                     loading="lazy"
                                     width={1024}
                                     height={1536}
-                                    src="/images/headshots/headshot_1_1024_1536.jpg"
+                                    src="/images/headshots/headshot_1_1024_1530.jpg"
                                     alt="greta perlmutter headshot"
                                 ></Image>
                             </div>
