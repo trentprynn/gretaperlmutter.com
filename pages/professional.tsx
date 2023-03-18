@@ -16,8 +16,11 @@ export default function Professional() {
                                 </p>
 
                                 <p className="mt-5">
-                                    As a recent graduate, Greta is actively seeking work in the entertainment industry
-                                    as an assistant to talent managers and agencies to help actors achieve their dreams!
+                                    Greta is currently working as the Theatre Coordinator at{' '}
+                                    <a href="https://www.thehudsonbroadway.com/">The Hudson Theatre</a>, an{' '}
+                                    <a href="https://www.atg.co.uk/">Ambassador Theatre Group</a> venue. She is a
+                                    motivated broadway professional and is always open to new opportunity should it
+                                    present itself.
                                 </p>
                             </div>
                         </Col>
@@ -40,7 +43,7 @@ export default function Professional() {
                                         <ul>
                                             <li>August 2017 - May 2021</li>
                                             <li>
-                                                Final GPA: <b>4.06</b>
+                                                Final GPA: <b>4.0</b>
                                             </li>
                                             <li>Certificate in Music Entrepreneurship</li>
                                         </ul>
@@ -52,6 +55,14 @@ export default function Professional() {
                                 <h4>employment</h4>
                                 <ul>
                                     <li>
+                                        Theatre Coordinator at{' '}
+                                        <a href="https://www.thehudsonbroadway.com/">The Hudson Broadway Theatre</a>
+                                    </li>
+                                    <ul>
+                                        <li>march 2023 - present</li>
+                                    </ul>
+
+                                    <li className="mt-3">
                                         Personal Assistant/Intern at{' '}
                                         <a href="https://www.jhamanagement.com/">
                                             Josselyne Herman & Associates Management

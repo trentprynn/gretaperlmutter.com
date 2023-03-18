@@ -64,12 +64,11 @@ export default function Root() {
                     </p>
 
                     <p>
-                        After graduating in the midst of the industry shut-down, I was able to take a strong look at
-                        what I want my future in the entertainment world to look like. My senior year, while going
-                        through talent agency interviews post-showcase, I began to ask more questions to agents about
-                        their journey of working in the industry, what it's like to represent clients, and how do I get
-                        to do that? That's when I knew I really have a passion for building fellow actors up to reach
-                        their goals and dreams in their career.
+                        I am currently living my broadway dream working as the theatre coordinator at the{' '}
+                        <a href="https://www.thehudsonbroadway.com/">
+                            <b>The Hudson Broadway Theatre</b>
+                        </a>
+                        , a position that allows me to fulfil my passions of both theatre and administrative work.
                     </p>
                 </Col>
                 <Col lg="6" className="order-1 order-lg-2">
