@@ -81,6 +81,34 @@ export default function Performance() {
             </Row>
 
             <Row className="mb-5">
+                <h1 className="text-center d-block d-lg-none">Skin</h1>
+
+                <Col lg="6" className="order-2 order-lg-1">
+                    <h1 className="text-center d-none d-lg-block">Skin</h1>
+                    <p>
+                        <b>musical:</b> <a href="https://www.selkiemusical.com/">Selkie</a>
+                    </p>
+                    <p>
+                        <b>written by:</b> Sam Sultan and Molly Horan
+                    </p>
+                    <p>
+                        <b>date:</b> oct 2023
+                    </p>
+
+                    <p>
+                        <i>
+                            Performed live at <a href="https://www.thegreenroom42.venuetix.com/">The Green Room 42</a>{' '}
+                            on Nov 5, 2023
+                        </i>
+                    </p>
+                </Col>
+
+                <Col lg="6" className="order-1 order-lg-2">
+                    <YoutubeEmbed embedId="fZ4b1c1yTDw" />
+                </Col>
+            </Row>
+
+            <Row className="mb-5">
                 <h1 className="text-center d-block d-lg-none">Spitfire Grill</h1>
 
                 <Col lg="6" className="order-2 order-lg-1">

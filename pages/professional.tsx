@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Col, Container, Row } from 'react-bootstrap'
 
 export default function Professional() {
@@ -8,14 +9,18 @@ export default function Professional() {
                     <Row className="justify-content-center">
                         <Col xs="auto">
                             <div style={{ maxWidth: '420px' }}>
-                                <h1 className="mb-0 pb-0">Professional Experience</h1>
-                                <p className="fs-5">
-                                    <a href="/files/Greta_Perlmutter_Professional_Resume.pdf">
-                                        <b>Resume</b>
-                                    </a>
-                                </p>
+                                <h1 className="mb-3 pb-0">Professional Experience</h1>
 
-                                <p className="mt-5">
+                                <Image
+                                    className="img-fluid"
+                                    loading="lazy"
+                                    width={2016}
+                                    height={2848}
+                                    src="/images/professional/Hudson_Group_Photo_2016_2111.jpeg"
+                                    alt="greta perlmutter hudson theater group photo"
+                                ></Image>
+
+                                <p className="mt-3">
                                     Greta is currently working as the Theatre Coordinator at{' '}
                                     <a href="https://www.thehudsonbroadway.com/">The Hudson Theatre</a>, an{' '}
                                     <a href="https://www.atg.co.uk/">Ambassador Theatre Group</a> venue. She is a
@@ -30,9 +35,9 @@ export default function Professional() {
                 <Col lg="6">
                     <Row className="justify-content-center">
                         <Col xs="auto">
-                            <h1 className="mb-5">Work Highlights</h1>
+                            <h1 className="mb-3">Work Highlights</h1>
 
-                            <div className="mb-5">
+                            <div className="mb-2">
                                 <h4>education</h4>
                                 <ul>
                                     <li>
@@ -51,7 +56,7 @@ export default function Professional() {
                                 </ul>
                             </div>
 
-                            <div className="mb-5">
+                            <div className="mb-2">
                                 <h4>employment</h4>
                                 <ul>
                                     <li>
@@ -95,10 +100,10 @@ export default function Professional() {
                             <div>
                                 <h4>skills</h4>
                                 <ul>
-                                    <li>Proficient in Casting Services: Breakdown Express, EcoCast</li>
-                                    <li>Proficient in Email Marketing Platforms: Salesforce, MailChimp, ConvertKit</li>
-                                    <li>Video Editing and Content Creation: Premiere Pro, iMovie, Canva, Photoshop</li>
-                                    <li>Proficient in Microsoft Suite and G-Suite</li>
+                                    <li>Microsoft Suite (Excel, Word, Powerpoint) and G-Suite</li>
+                                    <li>Project and Data Management: Salesforce, Trello, AirTable</li>
+                                    <li>Marketing Software: Salesforce Marketing Cloud, MailChimp, ConvertKit</li>
+                                    <li>Content Creation: Canva, Photoshop, Adobe Illustrator, Premiere Pro, iMovie</li>
                                 </ul>
                             </div>
                         </Col>

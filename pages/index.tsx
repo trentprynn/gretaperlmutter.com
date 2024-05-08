@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Col, Container, Row } from 'react-bootstrap'
-import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineLinkedin, AiOutlineYoutube } from 'react-icons/ai'
+import { AiOutlineInstagram, AiOutlineLinkedin, AiOutlineMail, AiOutlineYoutube } from 'react-icons/ai'
 
 export default function Root() {
     return (
@@ -11,17 +11,15 @@ export default function Root() {
                         <Col xs="auto">
                             <h1 className="mb-0 pb-0">Greta Perlmutter</h1>
 
-                            <p className="text-center mb-0 pb-0">
-                                <a href="mailto:gretaperlmutter@gmail.com">gretaperlmutter@gmail.com</a>
+                            <p className="fs-6 text-center mb-0 pb-0">
+                                <a href="/files/Greta_Perlmutter_Resume.pdf">
+                                    <b>Resume</b>
+                                </a>
                             </p>
 
                             <div className="text-center">
                                 <a href="https://www.instagram.com/gretaperl/" className="me-2 fs-3">
                                     <AiOutlineInstagram />
-                                </a>
-
-                                <a href="https://www.facebook.com/greta.perlmutter.7" className="me-2 fs-3">
-                                    <AiOutlineFacebook />
                                 </a>
 
                                 <a href="https://www.linkedin.com/in/greta-perlmutter/" className="me-2 fs-3">
@@ -33,6 +31,10 @@ export default function Root() {
                                     className="me-2 fs-3"
                                 >
                                     <AiOutlineYoutube />
+                                </a>
+
+                                <a href="mailto:gretaperlmutter@gmail.com" className="me-2 fs-3">
+                                    <AiOutlineMail />
                                 </a>
                             </div>
                         </Col>
