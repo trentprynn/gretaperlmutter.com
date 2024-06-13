@@ -1,33 +1,22 @@
-# Stage 1: Install dependencies
-FROM node:16 AS dependencies
+# Stage 1: Compile and build angular codebase
 
-WORKDIR /app
-COPY package.json yarn.lock ./
+FROM node:18-bullseye-slim as build
+
+WORKDIR /usr/local/app
+
+COPY ./ /usr/local/app/
+
 RUN yarn
-
-# Stage 2: Build source
-FROM node:16 AS build
-
-ENV NEXT_TELEMETRY_DISABLED 1
-
-WORKDIR /app
-COPY . .
-COPY --from=dependencies /app/node_modules ./node_modules
 
 RUN yarn build
 
-# Stage 3: Run
-FROM node:16 AS runner
+# Stage 2: Serve app with caddy
 
-ENV NEXT_TELEMETRY_DISABLED 1
-ENV NODE_ENV production
+FROM caddy:alpine
 
-WORKDIR /app
+COPY ./Caddyfile /etc/caddy/Caddyfile
 
-COPY --from=build /app/public ./public
-COPY --from=build /app/package.json ./package.json
-COPY --from=build /app/.next/standalone ./
-COPY --from=build /app/.next/static ./.next/static
+COPY --from=build /usr/local/app/out /var/www/html
 
-CMD export PORT="${PORT:-3000}" \ 
-    && node server.js
+CMD export PORT="${PORT:-80}" \ 
+    && caddy run --config /etc/caddy/Caddyfile

@@ -13,7 +13,7 @@ Repository for the source code of gretaperlmutter.com
 - On a push to master the website will be deployed automatically by Railway
 - The following commands can be used to locally build and run the Dockerfile that will be deployed
     - build image: `docker build . -t gretaperlmutter.com`
-    - create container: `docker run -d --name gretaperlmutter.com -p 3000:3000  gretaperlmutter.com`
+    - create container: `docker run -d --name gretaperlmutter.com -p 8080:80 gretaperlmutter.com`
     - stop container: `docker stop gretaperlmutter.com`
     - delete container: `docker rm gretaperlmutter.com`
     - delete image: `docker rmi gretaperlmutter.com`
