@@ -15,24 +15,6 @@ export default function Document() {
                 />
                 <link rel="apple-touch-icon" href="https://gretaperlmutter.com/logo192.png" />
                 <link rel="manifest" href="https://gretaperlmutter.com/manifest.json" />
-
-                {process.env.NODE_ENV === 'production' && (
-                    <React.Fragment>
-                        <script
-                            async
-                            defer
-                            data-collect-dnt="true"
-                            src="https://sa.gretaperlmutter.com/latest.js"
-                        ></script>
-                        <noscript>
-                            <img // eslint-disable-line
-                                src="https://sa.gretaperlmutter.com/noscript.gif?collect-dnt=true"
-                                alt=""
-                                referrerPolicy="no-referrer-when-downgrade"
-                            />
-                        </noscript>
-                    </React.Fragment>
-                )}
             </Head>
             <body>
                 <Main />
