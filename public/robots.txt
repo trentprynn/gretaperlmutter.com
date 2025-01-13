@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://gretaperlmutter.com/
+Sitemap: https://gretaperlmutter.com/sitemap.xml
