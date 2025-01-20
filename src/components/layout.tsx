@@ -5,9 +5,9 @@ import { NavLink, Outlet } from "react-router";
 export function Layout() {
   return (
     <>
-      <Container fluid style={{ minHeight: "100vh" }}>
+      <Container>
         <Container
-          style={{ height: "65px", paddingTop: "10px", paddingBottom: "15px" }}
+          style={{ height: "65px", paddingTop: "10px", paddingBottom: "15px", position: 'sticky', top: '0px', background: 'white', zIndex: 1 }}
           className="border-bottom"
         >
           <Row className="justify-content-between">
@@ -86,7 +86,7 @@ export function Layout() {
           </Row>
         </Container>
 
-        <div style={{ minHeight: "calc( 100vh - 65px)" }} className="pt-5 pb-5">
+        <div className="my-5">
           <Outlet />
         </div>
       </Container>
