@@ -24,14 +24,14 @@ export function HomePage() {
 
               <div className="text-center">
                 <a
-                  href="https://www.instagram.com/gretaperl/"
+                  href="https://www.instagram.com/gretaperl"
                   className="me-2 fs-3"
                 >
                   <AiOutlineInstagram />
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/greta-perlmutter/"
+                  href="https://www.linkedin.com/in/greta-perlmutter"
                   className="me-2 fs-3"
                 >
                   <AiOutlineLinkedin />
@@ -47,6 +47,7 @@ export function HomePage() {
                 <a
                   href="mailto:gretaperlmutter@gmail.com"
                   className="me-2 fs-3"
+                  target="_blank"
                 >
                   <AiOutlineMail />
                 </a>
@@ -54,44 +55,38 @@ export function HomePage() {
             </Col>
           </Row>
 
-          <h3>
+          <h4>
             <u>About Me</u>
-          </h3>
+          </h4>
           <p>
-            <b>Growing up in Phoenix, Arizona</b> I first caught the theatre bug
-            when I was 3 years old. At my very first audition, a group of us
-            toddlers were taken into the theater and each child was instructed
-            to hold the microphone and introduce ourselves individually.
-            Immediately, I started throwing a fit screaming “I want the
-            microphone! I want it!” Mortified, my mom was told to please remove
-            her child from the theater immediately. But, 2 years later I
-            auditioned once more (with much greater success), and the rest is
-            history.
+            I grew up in Phoenix, Arizona where I discovered my passion for
+            music theatre at a young age. Singing, acting, and dancing quickly
+            became a central part of my life and have driven me since.
           </p>
 
           <p>
-            From then on, I was hooked and I've been singing, acting, and
-            dancing ever since. I am a recent graduate from{" "}
+            I am a graduate from{" "}
             <a href="https://www.asu.edu/">
               <b>Arizona State University</b>
             </a>{" "}
             with a{" "}
-            <a href="https://musicdancetheatre.asu.edu/">
+            <a href="https://musicdancetheatre.asu.edu">
               <b>Bachelor of Music in Music Theatre Performance</b>
             </a>
             .
           </p>
 
           <p>
-            I am currently living my broadway dream working as the theatre
-            coordinator at the{" "}
-            <a href="https://www.thehudsonbroadway.com/">
-              <b>The Hudson Broadway Theatre</b>
-            </a>
-            , a position that allows me to fulfil my passions of both theatre
-            and administrative work.
+            Currently I'm living my dream working as the Academic Operations
+            Coordinator at the{" "}
+            <a href="https://www.juilliard.edu">
+              <b>The Juilliard School</b>
+            </a>{" "}
+            in New York City, a position that allows me to combine my passions
+            for both theatre and arts administration.
           </p>
         </Col>
+
         <Col lg="6" className="order-1 order-lg-2">
           <Row className="justify-content-center">
             <Col xs="auto">

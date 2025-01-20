@@ -7,7 +7,15 @@ export function Layout() {
     <>
       <Container>
         <Container
-          style={{ height: "65px", paddingTop: "10px", paddingBottom: "15px", position: 'sticky', top: '0px', background: 'white', zIndex: 1 }}
+          style={{
+            height: "65px",
+            paddingTop: "10px",
+            paddingBottom: "15px",
+            position: "sticky",
+            top: "0px",
+            background: "white",
+            zIndex: 1,
+          }}
           className="border-bottom"
         >
           <Row className="justify-content-between">
@@ -29,57 +37,15 @@ export function Layout() {
             <Col xs="auto">
               <Row>
                 <Col xs="auto">
-                  <NavLink to="/">
-                    {({ isActive }) => (
-                      <div>
-                        <small>home</small>
-
-                        {isActive && (
-                          <Row className="justify-content-center">
-                            <Col xs="auto">
-                              <FaCircle />
-                            </Col>
-                          </Row>
-                        )}
-                      </div>
-                    )}
-                  </NavLink>
+                  <NavItem href="/" text="home" />
                 </Col>
 
                 <Col xs="auto">
-                  <NavLink to="/professional">
-                    {({ isActive }) => (
-                      <div>
-                        <small>professional</small>
-
-                        {isActive && (
-                          <Row className="justify-content-center">
-                            <Col xs="auto">
-                              <FaCircle />
-                            </Col>
-                          </Row>
-                        )}
-                      </div>
-                    )}
-                  </NavLink>
+                  <NavItem href="/career" text="career" />
                 </Col>
 
                 <Col xs="auto">
-                  <NavLink to="/performance">
-                    {({ isActive }) => (
-                      <div>
-                        <small>performance</small>
-
-                        {isActive && (
-                          <Row className="justify-content-center">
-                            <Col xs="auto">
-                              <FaCircle />
-                            </Col>
-                          </Row>
-                        )}
-                      </div>
-                    )}
-                  </NavLink>
+                  <NavItem href="/performance" text="performance" />
                 </Col>
               </Row>
             </Col>
@@ -91,5 +57,25 @@ export function Layout() {
         </div>
       </Container>
     </>
+  );
+}
+
+function NavItem({ href, text }: { href: string; text: string }) {
+  return (
+    <NavLink to={href}>
+      {({ isActive }) => (
+        <div>
+          <small>{text}</small>
+
+          {isActive && (
+            <Row className="justify-content-center">
+              <Col xs="auto">
+                <FaCircle />
+              </Col>
+            </Row>
+          )}
+        </div>
+      )}
+    </NavLink>
   );
 }
