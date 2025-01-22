@@ -42,7 +42,7 @@ export function CareerPage() {
                     Academic Operations Coordinator at{" "}
                     <a href="https://www.juilliard.edu">The Juilliard School</a>
                     <ul>
-                      <li>January 2024 - Present</li>
+                      <li>January 2025 - Present</li>
                     </ul>
                   </li>
 
