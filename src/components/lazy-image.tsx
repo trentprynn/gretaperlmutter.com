@@ -1,4 +1,13 @@
 import { useState } from "react";
+import { Spinner } from "react-bootstrap";
+
+type LazyImageProps = {
+  src: string;
+  alt?: string;
+  className?: string;
+  width?: number;
+  height?: number;
+};
 
 export function LazyImage({
   src,
@@ -6,20 +15,14 @@ export function LazyImage({
   className,
   width,
   height,
-}: {
-  src: string;
-  alt?: string;
-  className?: string;
-  width?: number;
-  height?: number;
-}) {
+}: LazyImageProps) {
   const [loading, setLoading] = useState(true);
 
   return (
-    <div className="relative">
+    <div className="position-relative d-inline-block">
       {loading && (
-        <div className="absolute inset-0 flex items-center justify-center bg-white/70">
-          <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-gray-600" />
+        <div className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-white bg-opacity-75">
+          <Spinner animation="border" variant="secondary" />
         </div>
       )}
 
