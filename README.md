@@ -4,9 +4,9 @@ Repository for Greta Perlmutter's portfolio
 ## Development
 1. clone the repository
 2. navigate into it 
-5. run `yarn`
+5. run `npm install`
     - installs dependencies
-6. run `yarn dev`
+6. run `npm run dev`
     - runs application with hot reloading enabled
 
 ## Deployment
