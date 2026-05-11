@@ -65,7 +65,7 @@ export function HomePage() {
           </p>
 
           <p>
-            I am a graduate from{" "}
+            I am a graduate of{" "}
             <a href="https://www.asu.edu/">
               <b>Arizona State University</b>
             </a>{" "}
@@ -78,7 +78,7 @@ export function HomePage() {
 
           <p>
             Currently I'm living my dream working as the Academic Operations
-            Coordinator at the{" "}
+            Coordinator at{" "}
             <a href="https://www.juilliard.edu">
               <b>The Juilliard School</b>
             </a>{" "}

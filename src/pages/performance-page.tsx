@@ -88,7 +88,7 @@ export function PerformancePage() {
             <b>written by:</b> Sam Sultan and Molly Horan
           </p>
           <p>
-            <b>date:</b> oct 2023
+            <b>date:</b> Oct 2023
           </p>
 
           <p>
@@ -117,7 +117,7 @@ export function PerformancePage() {
             <a href="https://azbroadway.org/">Arizona Broadway Theatre</a>
           </p>
           <p>
-            <b>dates:</b> aug 2021 - sep 2021
+            <b>dates:</b> Aug 2021 - Sep 2021
           </p>
           <p>
             <b>role:</b> Percy Talbot
@@ -138,9 +138,9 @@ export function PerformancePage() {
       </Row>
 
       <Row className="mb-5">
-        <h1 className="text-center d-block d-lg-none">School House Rock</h1>
+        <h1 className="text-center d-block d-lg-none">Schoolhouse Rock!</h1>
         <Col lg="6" className="order-2 order-lg-1">
-          <h1 className="text-center d-none d-lg-block">School House Rock</h1>
+          <h1 className="text-center d-none d-lg-block">Schoolhouse Rock!</h1>
           <p>
             <b>theatre:</b>{" "}
             <a href="https://www.childsplayaz.org/">
@@ -148,7 +148,7 @@ export function PerformancePage() {
             </a>
           </p>
           <p>
-            <b>dates:</b> sep 21 - nov 21
+            <b>dates:</b> Sep 2021 - Nov 2021
           </p>
           <p>
             <b>role:</b> Dina / Dance Captain
@@ -176,26 +176,24 @@ export function PerformancePage() {
             </a>
           </p>
           <p>
-            <b>dates:</b> jan 20
+            <b>dates:</b> Jan 2020
           </p>
           <p>
             <b>role:</b> Laura / Molly / Alicia
           </p>
 
-          <p>
-            <a
-              href="https://open.spotify.com/album/3L9HgRQmiEtzF0exblLAoo?si=ARQ0pg4HSwayR9mgf7f-Zg"
-              className="text-decoration-none"
-            >
-              <SlSocialSpotify />{" "}
-              <b className="ms-1">Listen to Original Cast Recording Album</b>
-            </a>
-            <ul>
-              <li>track seven - Three Days Without Breathing</li>
-              <li>track fourteen - Dodging Bullets</li>
-              <li>track fifteen - Home Enough to Me</li>
-            </ul>
-          </p>
+          <a
+            href="https://open.spotify.com/album/3L9HgRQmiEtzF0exblLAoo?si=ARQ0pg4HSwayR9mgf7f-Zg"
+            className="text-decoration-none"
+          >
+            <SlSocialSpotify />{" "}
+            <b className="ms-1">Listen to Original Cast Recording Album</b>
+          </a>
+          <ul>
+            <li>track seven - Three Days Without Breathing</li>
+            <li>track fourteen - Dodging Bullets</li>
+            <li>track fifteen - Home Enough to Me</li>
+          </ul>
         </Col>
         <Col lg="6" className="order-1 order-lg-2">
           <LazyImage

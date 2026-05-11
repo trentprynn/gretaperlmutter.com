@@ -67,7 +67,7 @@ export function CareerPage() {
                   </li>
 
                   <li className="mt-3">
-                    Administrative Assistant{" "}
+                    Administrative Assistant at{" "}
                     <a href="https://universitycollege.asu.edu/academic-success/success-courses">
                       Arizona State University Success Courses
                     </a>
@@ -97,12 +97,12 @@ export function CareerPage() {
               <div className="mt-4">
                 <h4>Skills</h4>
                 <ul>
-                  <li>Microsoft Suite (Excel, Word, Powerpoint) and G-Suite</li>
+                  <li>Microsoft Suite (Excel, Word, PowerPoint) and G-Suite</li>
                   <li>
-                    Project and Data Management: Salesforce, Trello, AirTable
+                    Project and Data Management: Salesforce, Trello, Airtable
                   </li>
                   <li>
-                    Marketing Software: Salesforce Marketing Cloud, MailChimp,
+                    Marketing Software: Salesforce Marketing Cloud, Mailchimp,
                     ConvertKit
                   </li>
                   <li>
