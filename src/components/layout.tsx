@@ -8,7 +8,7 @@ export function Layout() {
       <Container>
         <Container
           style={{
-            height: "65px",
+            minHeight: "65px",
             paddingTop: "10px",
             paddingBottom: "15px",
             position: "sticky",

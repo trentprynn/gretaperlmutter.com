@@ -1,4 +1,5 @@
-import "./App.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 import { BrowserRouter, Routes, Route, Navigate } from "react-router";
 import { HomePage } from "./pages/home-page";

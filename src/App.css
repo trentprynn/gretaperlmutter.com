@@ -1,0 +1,12 @@
+:root,
+[data-bs-theme="light"] {
+  --bs-primary: #111d4a;
+  --bs-primary-rgb: 17, 29, 74;
+  --bs-secondary: #143109;
+  --bs-secondary-rgb: 20, 49, 9;
+  --bs-link-color: #111d4a;
+  --bs-link-color-rgb: 17, 29, 74;
+  --bs-link-hover-color: #0e173b;
+  --bs-link-hover-color-rgb: 14, 23, 59;
+  --bs-focus-ring-color: rgba(17, 29, 74, 0.25);
+}

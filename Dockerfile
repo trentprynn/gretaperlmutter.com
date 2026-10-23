@@ -1,6 +1,6 @@
 # Stage 1: Compile and build app
 
-FROM node:24-bullseye-slim AS build
+FROM node:24.22.1-bookworm-slim AS build
 
 WORKDIR /usr/local/app
 
@@ -12,7 +12,7 @@ RUN npm run build
 
 # Stage 2: Serve app with caddy
 
-FROM caddy:alpine
+FROM caddy:2.11.7-alpine
 
 COPY ./Caddyfile /etc/caddy/Caddyfile
 
